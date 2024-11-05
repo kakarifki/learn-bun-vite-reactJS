@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [hitung, setCount] = useState(0)
 
   return (
     <>
@@ -18,12 +18,15 @@ function App() {
       </div>
       <h1 className='bg-blue-300'>Vite + React + Tailwind + typscript</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((hitung) => hitung + 1)}>
+          klik untuk menghitung {hitung}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+                  <p>
+                ss Jangan coba coba ya
+            </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
