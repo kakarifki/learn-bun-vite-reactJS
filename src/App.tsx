@@ -1,22 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './styles/index.css'
 
 function App() {
   const [hitung, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1 className='bg-blue-300'>Vite + React + Tailwind + typscript</h1>
+      <h1 className='bg-blue-300 p-5'>Vite + React + Tailwind + typscript</h1>
       <div className="card">
         <button onClick={() => setCount((hitung) => hitung + 1)}>
           klik untuk menghitung {hitung}
